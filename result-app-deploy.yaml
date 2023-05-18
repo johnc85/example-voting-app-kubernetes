@@ -21,6 +21,7 @@ spec:
     spec:
       containers:
       - name: result-app
-        image: --platform=linux/amd64 example-voting-app-vote
+        image: example-voting-app-vote
+        platform: linux/amd64
         ports:
         - containerPort: 80
