@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
       - name: result-app
-        image: --platform=linux/amd64 kodekloud/examplevotingapp_result:v1
+        image: --platform=linux/amd64 example-voting-app-vote
         ports:
         - containerPort: 80
